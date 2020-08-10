@@ -2,6 +2,7 @@
   "name": "codetest",
   "version": "0.1.0",
   "private": true,
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -32,6 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  }
 }
